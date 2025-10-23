@@ -1,13 +1,36 @@
-# Build, install, log directories
+# ROS2 build, install, log directories
 build/
 install/
 log/
 
-# Debug files
+# Debugging outputs
 debug_files/
 
-# Editor/IDE files
-.vscode/
-*.swp
-__pycache__/
+# ROS2 hidden files
 *.pyc
+__pycache__/
+*.egg-info/
+
+# Map and generated files
+*.pgm
+*.yaml
+*.data
+*.posegraph
+
+# Editor/IDE configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Backup or temporary files
+*~
+*.swp
+*.tmp
+
+# Colcon ignores (optional, if you use these)
+COLCON_IGNORE
