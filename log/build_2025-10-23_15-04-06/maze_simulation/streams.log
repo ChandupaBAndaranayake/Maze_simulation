@@ -1,0 +1,59 @@
+[0.008s] Invoking command in '/home/ros/ros_ws/build/maze_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros/ros_ws/src/maze_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/ros_ws/install/maze_simulation
+[0.047s] -- The C compiler identification is GNU 13.3.0
+[0.085s] -- The CXX compiler identification is GNU 13.3.0
+[0.095s] -- Detecting C compiler ABI info
+[0.155s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.162s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.168s] -- Detecting CXX compiler ABI info
+[0.234s] -- Detecting CXX compiler ABI info - done
+[0.240s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.241s] -- Detecting CXX compile features
+[0.241s] -- Detecting CXX compile features - done
+[0.245s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.356s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.408s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.460s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.570s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.570s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.571s] -- Added test 'lint_cmake' to check CMake code style
+[0.572s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.573s] -- Added test 'xmllint' to check XML markup files
+[0.575s] -- Configuring done (0.6s)
+[0.578s] -- Generating done (0.0s)
+[0.579s] -- Build files have been written to: /home/ros/ros_ws/build/maze_simulation
+[0.583s] Invoked command in '/home/ros/ros_ws/build/maze_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros/ros_ws/src/maze_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/ros_ws/install/maze_simulation
+[0.584s] Invoking command in '/home/ros/ros_ws/build/maze_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros/ros_ws/build/maze_simulation -- -j12 -l12
+[0.615s] Invoked command in '/home/ros/ros_ws/build/maze_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros/ros_ws/build/maze_simulation -- -j12 -l12
+[0.623s] Invoking command in '/home/ros/ros_ws/build/maze_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros/ros_ws/build/maze_simulation
+[0.629s] -- Install configuration: ""
+[0.629s] -- Execute custom install script
+[0.630s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/ament_index/resource_index/package_run_dependencies/maze_simulation
+[0.637s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/ament_index/resource_index/parent_prefix_path/maze_simulation
+[0.643s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation/environment/ament_prefix_path.sh
+[0.650s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation/environment/ament_prefix_path.dsv
+[0.657s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation/environment/path.sh
+[0.664s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation/environment/path.dsv
+[0.671s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation/local_setup.bash
+[0.677s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation/local_setup.sh
+[0.683s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation/local_setup.zsh
+[0.690s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation/local_setup.dsv
+[0.697s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation/package.dsv
+[0.703s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/ament_index/resource_index/packages/maze_simulation
+[0.709s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation/cmake/maze_simulationConfig.cmake
+[0.717s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation/cmake/maze_simulationConfig-version.cmake
+[0.724s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation/package.xml
+[0.730s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation//launch/maze.launch.py
+[0.736s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation//launch/maze_navigation.launch.py
+[0.742s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation//launch/maze_slam_toolbox.launch.py
+[0.747s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation//worlds/mazeGen.py
+[0.753s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation//worlds/maze_world.sdf
+[0.758s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation//scripts/explorer.py
+[0.764s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation//config/mapper_params_online_async.yaml
+[0.770s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation//config/nav2_params.yaml
+[0.775s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation//config/twist_mux.yaml
+[0.781s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation//rviz/maze_config.rviz
+[0.786s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation//rviz/model_config.rviz
+[0.791s] -- Symlinking: /home/ros/ros_ws/install/maze_simulation/share/maze_simulation//rviz/tb3_navigation2.rviz
+[0.797s] Invoked command in '/home/ros/ros_ws/build/maze_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros/ros_ws/build/maze_simulation

@@ -1,0 +1,1 @@
+/home/ros/ros_ws/src/maze_simulation/scripts/explorer.py

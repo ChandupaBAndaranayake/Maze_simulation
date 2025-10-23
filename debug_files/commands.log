@@ -1,0 +1,335 @@
+    1  git clone https://github.com/QuintusJoyal/MazeTurtle.git
+    2  colcon build --symlink-install
+    3  cp /opt/ros/jazzy/share/slam_toolbox/config/mapper_params_online_async.yaml ./src/maze_simulation/config/
+    4  colcon build --symlink-install
+    5  rm -rf build log install
+    6  colcon build --symlink-install
+    7  source install/setup.bash
+    8  ros2 launch maze_simulation maze_slam.launch.py 
+    9  sudo apt install ros-jazzy-nav2-bringup ros-jazzy-nav2-msgs ros-jazzy-nav2-util
+   10  sudo apt install ros-jazzy-nav2
+   11  sudo apt search ros-jazzy-nav2
+   12  sudo apt search ros-jazzy-nav2 | grep route
+   13  sudo apt install ros-jazzy-nav2-route
+   14  ros2 launch maze_simulation maze_slam.launch.py 
+   15  ps -aux
+   16  ps -aux | grep gz
+   17  pkill 9 3327
+   18  pkill -9 3327
+   19  ps -aux | grep gz
+   20  sudo kill -9 3327
+   21  ps -aux | grep gz
+   22  ps -aux | grep ros
+   23  ros2 launch maze_simulation maze_slam.launch.py 
+   24  ps aux | grep gz
+   25  sudo kill 9 20260
+   26  ps aux | grep gz
+   27  sudo kill 9 20260
+   28  sudo kill -9 20260
+   29  ps aux | grep gz
+   30  ros2 launch maze_simulation maze_slam.launch.py 
+   31  ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true
+   32  ros2 run teleop_twist_keyboard teleop_twist_keyboard
+   33  ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args stamped:=true
+   34  ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true
+   35  cp /opt/ros/jazzy/share/slam_toolbox/config/mapper_params_online_async.yaml ./src/maze_simulation/config/
+   36  rm build log install
+   37  rm -rf build log install
+   38  colcon build --symlink-install
+   39  source install/setup.bash
+   40  ros2 launch maze_simulation maze_slam.launch.py 
+   41  ps 
+   42  ps aux
+   43  sudo kill -9 23826
+   44  sudo kill -9 23828
+   45  ros2 launch maze_simulation maze_slam.launch.py 
+   46  ros2 launch maze_simulation maze_slam.launch.py 
+   47  ps aux | grep gz
+   48  ros2 launch maze_simulation maze_slam.launch.py 
+   49  ps aux | grep gz
+   50  ros2 launch maze_simulation maze_slam.launch.py 
+   51  rm -rf build log install
+   52  colcon build --symlink-install
+   53  source install/setup.bash
+   54  ros2 launch maze_simulation maze_slam.launch.py 
+   55  rm -rf build log install
+   56  colcon build --symlink-install
+   57  source install/setup.bash
+   58  ps aux | grep  g
+   59  ps aux | grep  gz
+   60  ros2 launch maze_simulation maze_slam.launch.py 
+   61  pwd
+   62  ros2 launch maze_simulation maze_slam.launch.py 
+   63  ps aux | grep gz
+   64  ros2 launch maze_simulation maze_slam.launch.py 
+   65  ps aux | grep gz
+   66  ros2 launch maze_simulation maze_slam.launch.py 
+   67  rm -rf build log install
+   68  colcon build --symlink-install
+   69  source install/setup.bash
+   70  ps aux | grep gz
+   71  ros2 launch maze_simulation maze_slam.launch.py 
+   72  find / -name diff_drive_controller.yaml 
+   73  sudo find / -name diff_drive_controller.yaml 
+   74  sudo find / -name diff_drive_controller.yaml 2>/dev/null
+   75  ls /opt/ros/jazzy/share/turtlebot3_bringup/config/diff_drive_controller.yaml
+   76  ls /opt/ros/jazzy/share/turtlebot3_bringup/param/burger.yaml 
+   77  ls /opt/ros/jazzy/share/turtlebot3_gazebo/launch/spawn_turtlebot3.launch.py 
+   78  ls /opt/ros/jazzy/share/turtlebot3_gazebo/params/turtlebot3_ 
+   79  ls /opt/ros/jazzy/share/turtlebot3_gazebo/params/turtlebot3_burger_bridge.yaml 
+   80  ls /opt/ros/jazzy/share/turtlebot3_gazebo/models/turtlebot3_burger
+   81  ls /opt/ros/jazzy/share/turtlebot3_bringup/launch/robot.launch.py 
+   82  ls /opt/ros/jazzy/share/turtlebot3_bringup/param//burger.yaml 
+   83  ls /opt/ros/jazzy/share/turtlebot3_gazebo/models/turtlebot3_burger/model.sdf
+   84  sudo nano /opt/ros/jazzy/share/turtlebot3_gazebo/models/turtlebot3_burger/model.sdf
+   85  sudo vi /opt/ros/jazzy/share/turtlebot3_gazebo/models/turtlebot3_burger/model.sdf
+   86  ls -ld /opt/ros/jazzy/share/turtlebot3_gazebo/models/turtlebot3_burger/model.sdf
+   87  sudo chmod a+x /opt/ros/jazzy/share/turtlebot3_gazebo/models/turtlebot3_burger/model.sdf
+   88  ls -ld /opt/ros/jazzy/share/turtlebot3_gazebo/models/turtlebot3_burger/model.sdf
+   89  sudo chmod 777 /opt/ros/jazzy/share/turtlebot3_gazebo/models/turtlebot3_burger/model.sdf
+   90  ls -ld /opt/ros/jazzy/share/turtlebot3_gazebo/models/turtlebot3_burger/model.sdf
+   91  sudo apt install nano
+   92  sudo nano ~/.bashrc
+   93  source ~/.bashrc
+   94  ls
+   95  ros2 launch maze_simulation maze_slam.launch.py
+   96  ps -aux | grep g
+   97  ps -aux | grep gz
+   98  ps -aux | grep slam
+   99  ros2 launch maze_simulation maze_slam.launch.py
+  100  ps -aux | grep gz
+  101  ps -aux | grep slam
+  102  ps -aux | grep ros
+  103  rm -rf build log install
+  104  colcon build --symlink-install
+  105  source install/setup.bash
+  106  ros2 launch maze_simulation maze_slam.launch.py 
+  107  exit
+  108  ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.1}, angular: {z: 0.0}}"
+  109  ros2 run teleop_twist_keyboard teleop_twist_keyboard 
+  110  ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:true
+  111  ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args stamped:true
+  112  ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p "stamped:true"
+  113  ros2 launch teleop_twist_keyboad teleop_twist_keyboard
+  114  ros2 launch teleop_twist_keyboad teleop.launch.py
+  115  ros2 pkg list | grep teleop
+  116  ls /opt/ros/jazzy/share/teleop_twist_keyboard/
+  117  ls /opt/ros/jazzy/share/turtlebot3_teleop/
+  118  exit
+  119  cd ..
+  120  source install/setup.bash
+  121  ros2 run teleop_twist_keyboard teleop_twist_keyboard 
+  122  ros2 run tf2_tools view_frames 
+  123  ros2 run teleop_twist_keyboard teleop_twist_keyboard 
+  124  ros2 topic list
+  125  ros2 topic echo /cmd_vel
+  126  ros2 topic echo /cmd_vel -h
+  127  ros2 topic echo /cmd_vel
+  128  ros2 topic echo /cmd_vel geometry_msgs/msg/Twist
+  129  ros2 topic list
+  130  ros2 topic echo /tf
+  131  ros2 topic echo /joint_states 
+  132  eexit
+  133  exit
+  134  ros2 run teleop_twist_keyboard teleop_twist_keyboard 
+  135  ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true
+  136  source install/setup.bash
+  137  ros2 launch maze_simulation maze_slam.launch.py 
+  138  ps aux | grep gz
+  139  ros2 launch maze_simulation maze_slam.launch.py 
+  140  ros2 launch turtlebot3_navigation2 navigation2.launch.py 
+  141  rm -rf build log install
+  142  colcon build --symlink-install
+  143  source install/setup.bash
+  144  ros2 launch maze_simulation maze_slam_only.launch.py 
+  145  rm -rf build log install
+  146  colcon build --symlink-install
+  147  source install/setup.bash
+  148  ros2 launch maze_simulation maze_slam_only.launch.py 
+  149  ps aux | grep gz
+  150  ros2 launch maze_simulation maze_slam_only.launch.py 
+  151  ps aux | grep gz
+  152  ros2 launch maze_simulation maze_slam_only.launch.py 
+  153  rm -rf build log install
+  154  colcon build --symlink-install
+  155  source install/setup.bash
+  156  ros2 launch maze_simulation maze_slam_only.launch.py 
+  157  ps aux | grep ruby
+  158  ps aux | grep ru
+  159  ros2 launch maze_simulation maze_slam_only.launch.py 
+  160  ros2 launch turtlebot3_cartographer cartographer.launch.py  use_sim_time:=true
+  161  ros2 launch turtlebot3_cartographer cartographer.launch.py  use_sim_time:=true > out2.log
+  162  rviz2
+  163  ros2 param get /robot_state_publisher wheel_separation
+  164  ros2 param get /robot_state_publisher wheel_radius
+  165  ros2 param list
+  166  ros2 topic info /odom
+  167  ros2 node list
+  168  gz topic list
+  169  gz topic -l
+  170  gz topic info "/odom"
+  171  gz topic -i -t"/odom"
+  172  gz topic -i -t "/odom"
+  173  ls /opt/ros/jazzy/share/turtlebot3_gazebo/models/turtlebot3_burger/model.sdf
+  174  evince
+  175  ros3 topic echo /odom
+  176  ros2 topic echo /odom
+  177  ros2 topic echo /odom > out3.log
+  178  ros2 param list | grep wheel
+  179  ls /opt/ros/jazzy/share/turtlebot3_gazebo/models/turtlebot3_burger/model.sdf
+  180  ros2 run tf2_ros tf2_echo odom base_footprint
+  181  ros2 launch slam_toolbox online_async_launch.py --ros-argsparams_file:=src/maze_simulation/config/mapper_params_online_async.yaml 
+  182  ros2 launch slam_toolbox online_async_launch.py --ros-args params_file:=src/maze_simulation/config/mapper_params_online_async.yaml use_sim_time:=true 
+  183  ros2 launch slam_toolbox online_async_launch.pyvparams_file:=src/maze_simulation/config/mapper_params_online_async.yaml use_sim_time:=true 
+  184  ros2 launch slam_toolbox online_async_launch.py params_file:=src/maze_simulation/config/mapper_params_online_async.yaml use_sim_time:=true 
+  185  ps -aux | grep ros
+  186  ps -aux | grep slam
+  187  ros2 launch slam_toolbox online_async_launch.py params_file:=src/maze_simulation/config/mapper_params_online_async.yaml use_sim_time:=true 
+  188  ros2 launch slam_toolbox online_async_launch.py params_file:=./src/maze_simulation/config/mapper_params_online_async.yaml use_sim_time:=true
+  189  ros2 launch slam_toolbox online_async_launch.py   params_file:=./src/maze_simulation/config/mapper_params_online_async.yaml   use_sim_time:=true   max_laser_range:=3.5
+  190  ros2 launch slam_toolbox online_async_launch.py params_file:=./src/maze_simulation/config/mapper_params_online_async.yaml use_sim_time:=true
+  191  ls -l my_serial_map.
+  192  ls -l my_serial_map*
+  193  ros2 launch slam_toolbox online_async_launch.py params_file:=./src/maze_simulation/config/mapper_params_online_async.yaml use_sim_time:=true
+  194  ls -l /home/ros/ros_ws/my_serial_map.posegraph
+  195  ros2 launch slam_toolbox online_async_launch.py params_file:=./src/maze_simulation/config/mapper_params_online_async.yaml use_sim_time:=true
+  196  exit
+  197  ros2 run rviz2
+  198  ros2 run rviz2 rviz
+  199  rviz2 
+  200  ls
+  201  rviz2 
+  202  ls ~/.rviz2/
+  203  rm -r ~/.rviz2/default.rviz 
+  204  rviz2 
+  205  rviz2 -d src/maze_simulation/rviz/maze_config.rviz 
+  206  exi
+  207  exit
+  208  cd ..
+  209  ros2 run teleop_twist_keyboard teleop_twist_keyboard 
+  210  ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true
+  211  exit
+  212  source install/setup.bash
+  213  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
+  214  ros2 launch maze_simulation maze.launch.py 
+  215  ps aux | grep gz
+  216  ps aux | grep tel
+  217  ros2 launch maze_simulation maze.launch.py 
+  218  ls -l /opt/ros/jazzy/share/turtlebot3_gazebo/launch/turtlebot3_world.launch.py 
+  219  ls -l /opt/ros/jazzy/share/turtlebot3_cartographer/launch/cartographer.launch.py 
+  220  sudo chmod 777 /opt/ros/jazzy/share/turtlebot3_gazebo/launch/turtlebot3_world.launch.py 
+  221  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
+  222  ls -l /opt/ros/jazzy/share/turtlebot3_gazebo/worlds/
+  223  ls -l /opt/ros/jazzy/share/turtlebot3_gazebo/worlds/turtlebot3_world.world 
+  224  ls -l /opt/ros/jazzy/share/turtlebot3_gazebo/launch/spawn_turtlebot3.launch.py 
+  225  ls -l /opt/ros/jazzy/share/turtlebot3_gazebo/launch/robot_state_publisher.launch.py 
+  226  cd src/maze_simulation/worlds/
+  227  python3 ./mazeGen.py 
+  228  cd ..
+  229  cd..
+  230  cd ..
+  231  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
+  232  ros2 launch maze_simulation maze.launch.py 
+  233  ps aux | gz
+  234  ps aux | grep gz
+  235  ros2 launch maze_simulation maze.launch.py 
+  236  ps aux | grep gz
+  237  ros2 launch maze_simulation maze.launch.py 
+  238  ps aux | grep gz
+  239  ros2 launch maze_simulation maze.launch.py 
+  240  ps aux | grep run
+  241  ps aux | grep gz
+  242  ros2 launch maze_simulation maze.launch.py 
+  243  ls -la my_serial_map*
+  244  ros2 launch maze_simulation maze.launch.py 
+  245  exit
+  246  ros2 launch slam_toolbox online_async_launch.py params_file:=src/maze_simulation/config/mapper_params_online_async.yaml use_sim_time:=true
+  247  ros2 launch slam_toolbox online_async_launch.py params_file:=./src/maze_simulation/config/mapper_params_online_async.yaml use_sim_time:=true
+  248  ps -aux | gre
+  249  ps -aux 
+  250  file
+  251  file my_serial_map.data
+  252  file my_serial_map.posegraph 
+  253  ros2 launch slam_toolbox localization_launch.py params_file:=./src/maze_simulation/config/mapper_params_online_async.yaml use_sim_time:=true
+  254  ros2 launch slam_toolbox online_async_launch.py params_file:=./src/maze_simulation/config/mapper_params_online_async.yaml use_sim_time:=true
+  255  ros2 launch slam_toolbox online_async_launch.py params_file:=./src/maze_simulation/config/mapper_paramsine_async.yaml use_sim_time:=true
+  256  ros2 launch slam_toolbox online_async_launch.py slam_params_file:=./src/maze_simulation/config/mapper_paramsine_async.yaml use_sim_time:=true
+  257  ls -l $(ros2 pkg prefix slam_toolbox)/share/slam_toolbox/launch
+  258  ros2 launch slam_toolbox online_async_launch.py --print
+  259  ros2 launch slam_toolbox online_async_launch.py --launch-prefix
+  260  ros2 launch slam_toolbox online_async_launch.py --debug
+  261  ros2 launch slam_toolbox online_async_launch.py --debug params_file:=./src/maze_simulation/config/mapper_params_online_async.yaml
+  262  ros2 launch slam_toolbox online_async_launch.py --debug slam_params_file:=./src/maze_simulation/config/mapper_params_online_async.yaml
+  263  ros2 launch slam_toolbox online_async_launch.py slam_params_file:=./src/maze_simulation/config/mapper_params_online_async.yaml
+  264  rviz2
+  265  ros2 service list
+  266  ros2 service call /slam_toolbox/serialize_map slam_toolbox/srv/SerializePoseGraph 
+  267  rviz2
+  268  ros2 param get /slam_toolbox mode
+  269  ros2 param get /slam_toolbox map_file_name
+  270  ros2 param get /slam_toolbox mode
+  271  ros2 param get /slam_toolbox map_file_name
+  272  ros2 param get /slam_toolbox mode
+  273  ros2 param get /slam_toolbox list
+  274  ros2 param get /slam_toolbox 
+  275  ros2 param get /slam_toolbox mode
+  276  rviz2
+  277  ros2 run teleop_twist_keyboard teleop_twist_keyboard 
+  278  gz topic -l
+  279  ros2 topic list
+  280  # Move forward at 0.2 m/s
+  281  ros2 topic pub /cmd_vel geometry_msgs/Twist "{linear: {x: 0.2, y: 0.0, z: 0.0}, angular: {x:0.0, y:0.0, z:0.0}}"
+  282  # Rotate in place at 1 rad/s
+  283  ros2 topic pub /cmd_vel geometry_msgs/Twist "{linear: {x: 0.0}, angular: {z: 1.0}}"
+  284  ros2 topic info /cmd_vel
+  285  ls -l /opt/ros/jazzy/share/turtlebot3_gazebo/models/turtlebot3_burger/model.sdf 
+  286  gz topic -l
+  287  gz topic -i /cmd_vel
+  288  gz topic -i -t /cmd_vel
+  289  ros2 node info /ros_gz_bridge 
+  290  ros2 topic info /cmd_vel
+  291  ros2 run teleop_twist_keyboard teleop_twist_keyboard 
+  292  ping google.com
+  293  cd ..
+  294  source install/setup.bash
+  295  ros2 launch maze_simulation maze.launch.py 
+  296  ls -l /opt/ros/jazzy/share/slam_toolbox/config/mapper_params_online_async.yaml ./src/maze_simulation/config/
+  297  cp /opt/ros/jazzy/share/slam_toolbox/config/mapper_params_online_async.yaml ./src/maze_simulation/config/
+  298  ros2 launch maze_simulation maze.launch.py 
+  299  ls -l 
+  300  ros2 launch maze_simulation maze.launch.py 
+  301  ros2 launch slam_toolbox localization_launch.py   params_file:=./src/maze_simulation/config/mapper_params_online_async.yaml   use_sim_time:=trueD
+  302  ros2 launch slam_toolbox online_async_launch.py   params_file:=./src/maze_simulation/config/mapper_params_online_async.yaml   use_sim_time:=true
+  303  ros2 launch maze_simulation maze.launch.py 
+  304  ps aux | grep ruby
+  305  ps aux | grep gz
+  306  ros2 launch maze_simulation maze.launch.py 
+  307  ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true
+  308  ros2 param get /slam_toolbox mode
+  309  ros2 run nav2_amcl amcl --ros-args -p use_sim_time:=true
+  310  ros2 run nav2_map_server map_server --ros-args -p yaml_filename:=./src/maze_simulation/map/my_map_save.yaml -p use_sim_time:true
+  311  ros2 run nav2_map_server map_server --ros-args -p yaml_filename:=./src/maze_simulation/map/my_map_save.yaml -p use_sim_time:=true
+  312  ros2 run nav2_util lifecycle_bringup amcl
+  313  ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true
+  314  ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true-r cmd_vel:=cmd_vel_keyboard
+  315  ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r cmd_vel:=cmd_vel_keyboard
+  316  ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r cmd_vel:=cmd_vel_keyboard stamped:=true
+  317  ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r cmd_vel:=cmd_vel_keyboard --stamped
+  318  ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true -r cmd_vel:=cmd_vel_keyboard 
+  319  ros2 run nav2_util lifecycle_bringup map_server
+  320  ros2 node list
+  321  ros2 topic list
+  322  ros2 topic echo /map
+  323  ros2 run nav2_util lifecycle_bringup map_server
+  324  ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true
+  325  sudo apt install ros-jazzy-twist-mux
+  326  ls -l /opt/ros/jazzy/share/twist_mux/config/twist_mux_locks.yaml 
+  327  cp /opt/ros/jazzy/share/twist_mux/config/twist_mux_locks.yaml ./src/maze_simulation/config/twist_mux.yaml 
+  328  ros2 run twist_mux twist_mux  --ros-args --params-file ./src/maze_simulation/config/twist_mux.yaml -r cmd_vel_out:=cmd_vel
+  329  ros2 run twist_mux twist_mux  --ros-args --params-file ./src/maze_simulation/config/twist_mux.yaml -r cmd_vel_out:=diff_cont/cmd_vel_unstamped
+  330  ros2 run twist_mux twist_mux  --ros-args --params-file ./src/maze_simulation/config/twist_mux.yaml -r cmd_vel_out:=cmd_vel
+  331  ros2 topic list
+  332  ros2 node list
+  333  ros2 topic echo /cmd_vel
+  334  history
+  335  history > commands.log
