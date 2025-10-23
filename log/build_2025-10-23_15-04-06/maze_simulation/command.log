@@ -1,6 +1,0 @@
-Invoking command in '/home/ros/ros_ws/build/maze_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros/ros_ws/src/maze_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/ros_ws/install/maze_simulation
-Invoked command in '/home/ros/ros_ws/build/maze_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ros/ros_ws/src/maze_simulation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/ros_ws/install/maze_simulation
-Invoking command in '/home/ros/ros_ws/build/maze_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros/ros_ws/build/maze_simulation -- -j12 -l12
-Invoked command in '/home/ros/ros_ws/build/maze_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ros/ros_ws/build/maze_simulation -- -j12 -l12
-Invoking command in '/home/ros/ros_ws/build/maze_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros/ros_ws/build/maze_simulation
-Invoked command in '/home/ros/ros_ws/build/maze_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ros/ros_ws/build/maze_simulation

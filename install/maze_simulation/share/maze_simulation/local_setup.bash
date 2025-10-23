@@ -1,1 +1,0 @@
-/home/ros/ros_ws/build/maze_simulation/ament_cmake_environment_hooks/local_setup.bash

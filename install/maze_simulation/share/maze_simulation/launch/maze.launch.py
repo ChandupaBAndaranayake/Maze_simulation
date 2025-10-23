@@ -1,1 +1,0 @@
-/home/ros/ros_ws/src/maze_simulation/launch/maze.launch.py
