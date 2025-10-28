@@ -50,7 +50,8 @@ sudo apt install -y ros-jazzy-slam-toolbox
 ### 3. Navigation 2 Stack
 
 ```bash
-sudo apt install -y ros-jazzy-navigation2 ros-jazzy-nav2-bringup
+sudo apt install -y ros-jazzy-navigation2 ros-jazzy-nav2-bringup ros-jazzy-nav2-route
+
 ```
 
 * **Purpose**: Provides AMCL localization, planners, controllers, and BT navigator for autonomous navigation.
